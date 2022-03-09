@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0091D4"
+    android:background="#E5890A"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="214dp"
         android:text="Flip"
-        app:backgroundTint="#FFC107"
+        app:backgroundTint="#F7D08A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +33,7 @@
 
     <ImageView
         android:id="@+id/coinView"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="74dp"
@@ -44,8 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heads"
-        android:layout_width="0dp" />
+        app:srcCompat="@drawable/heads" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
